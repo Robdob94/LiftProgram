@@ -74,7 +74,7 @@ class LiftControlSystem {
         lift.openDoors(); // Open the doors after reaching the floor
     }
 
-    // Method to show the current status of the lift
+    // Method to show the current status of lift
     public void showStatus() {
         System.out.println("Current floor: " + lift.getCurrentFloor());
         System.out.println("Doors " + (lift.areDoorsOpen() ? "open" : "closed"));
